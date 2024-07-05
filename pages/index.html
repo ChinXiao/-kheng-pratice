@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="decription"
+      content="Learning online course with reanmore website just improve to the next"
+    />
+    <meta name="keywords" content="HTML,CSS,JavaScript..." />
+    <meta property="og:title" content="Online Web" />
+    <meta
+      property="og:image"
+      content="https://miro.medium.com/v2/resize:fit:960/1*OlyP02fRFe8pEkJgb6vGTQ.png"
+    />
+    <meta property="og:url" content="https://www.sokheng.com"/>
+    <title>WEBONE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0822a4a647.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <section class="top-page">
+      <nav class="navigation container-width">
+        <nav class="logo">
+          <img src="/src/images/logo.webp" alt="logo" />
+        </nav>
+        <span class="icon-bar">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+        <ul class="list">
+          <li class="link-list"><a href="">HOME</a></li>
+          <li class="link-list"><a href="">Option</a></li>
+          <li class="link-list"><a href="">Server</a></li>
+          <li class="link-list"><a href="">About</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- java script -->
+    <script>
+      const menuToggler = document.querySelector(".icon-bar");
+      const navLists = document.querySelector(".list");
+      menuToggler.addEventListener("click", () => {
+        navLists.classList.toggle("show");
+      });
+    </script>
+
+    <!-- end of navigation bar -->
+
+    <!-- hero-section -->
+
+    <section class="hero">
+      <div class="grid-1x2 grid-hero container-width">
+        <div class="grid-one">
+          <h1 class="hero-heading">Welcome to WhoKheng.com</h1>
+          <p>
+            Welcome to the course! Get ready to learn and master new skills.
+            Let's start!
+          </p>
+          <div class="button">
+            <a class="btn btn-primary" href="">Learning Courses</a>
+          </div>
+        </div>
+        <div class="grid-two">
+          <img src="/src/images/codeimg.webp" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end of section hero -->
+
+    <!-- popular section -->
+
+    <section class="popular-section">
+      <h2 class="heading-courses">Popular Courses</h2>
+      <article class="grid-1x3 grid-courses container-width">
+        <div class="courses-sell">
+          <div class="image-courses">
+            <img src="/src/images/HTML CSS.jpg" alt="HTML CSS" />
+          </div>
+          <h3 class="course-heading">HTML & CSS</h3>
+          <p>
+            HTML structures the content of web pages, while CSS is used to style
+            and visually format them.
+          </p>
+          <div class="button-course">
+            <a href="" class="btn btn-primary btn-course">Preview</a>
+            <a href="" class="btn btn-accent btn-buy">60$</a>
+          </div>
+        </div>
+        <div class="courses-sell">
+          <div class="image-courses">
+            <img src="/src/images/java-script.jpg" alt="JavaScript" />
+          </div>
+          <h3 class="course-heading">JavaScript</h3>
+          <p>
+            JavaScript adds interactivity and dynamic behavior to web pages,
+            enhancing user experience.
+          </p>
+          <div class="button-course">
+            <a href="" class="btn btn-primary btn-course">Preview</a>
+            <a href="" class="btn btn-accent btn-buy">60$</a>
+          </div>
+        </div>
+        <div class="courses-sell">
+          <div class="image-courses">
+            <img src="/src/images/python.jpg" alt="Python" />
+          </div>
+          <h3 class="course-heading">Python</h3>
+          <p>
+            Python is a versatile, easy-to-learn programming language used in
+            web development.
+          </p>
+          <div class="button-course">
+            <a href="" class="btn btn-primary btn-course">Preview</a>
+            <a href="" class="btn btn-accent btn-buy">60$</a>
+          </div>
+        </div>
+        <div class="courses-sell">
+          <div class="image-courses">
+            <img src="/src/images/react js.jpg" alt="HTML CSS" />
+          </div>
+          <h3 class="course-heading margin-react">React js</h3>
+          <p>
+            React.js is a JavaScript library for building user interfaces, known
+            for its component-based architecture.
+          </p>
+          <div class="button-course">
+            <a href="" class="btn btn-primary btn-course">Preview</a>
+            <a href="" class="btn btn-accent btn-buy">60$</a>
+          </div>
+        </div>
+        <div class="courses-sell">
+          <div class="image-courses">
+            <img src="/src/images/nodejs.webp" alt="HTML CSS" />
+          </div>
+          <h3 class="course-heading">node js</h3>
+          <p>
+            Node.js is a runtime environment that allows executing JavaScript
+            server-side, facilitating scalable web.
+          </p>
+          <div class="button-course">
+            <a href="" class="btn btn-primary btn-course">Preview</a>
+            <a href="" class="btn btn-accent btn-buy">60$</a>
+          </div>
+        </div>
+        <div class="courses-sell">
+          <div class="image-courses">
+            <img
+              src="/src/images/UX-vs-UI-Design-1024x819-1.webp"
+              alt="UI UX"
+            />
+          </div>
+          <h3 class="course-heading">UI/UX</h3>
+          <p>
+            UI/UX is interfaces emphasizes simplicity, clarity, and user-centric
+            design for optimal usability.
+          </p>
+          <div class="button-course">
+            <a href="" class="btn btn-primary btn-course">Preview</a>
+            <a href="" class="btn btn-accent btn-buy">60$</a>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- end of popular -->
+
+    <!-- categorise -->
+
+    <section class="categorise">
+      <h2 class="cate-heading">Top Categorise</h2>
+      <div class="grid-1x4 container-width">
+        <a class="link-cate links" href="">
+          <article class="cate-list">
+            <div class="cate-icon">
+              <img src="/src/icons/coding.png" alt="Code" />
+            </div>
+            <h3 class="heading-icon">Coding</h3>
+          </article>
+        </a>
+        <a class="link-cate links" href="">
+          <article class="cate-list">
+            <div class="cate-icon">
+              <img src="/src/icons/Graphic Design.png" alt="design" />
+            </div>
+            <h3 class="heading-icon">Design</h3>
+          </article>
+        </a>
+        <a class="link-cate links" href="">
+          <article class="cate-list">
+            <div class="cate-icon">
+              <img src="/src/icons/video editing.png" alt="edit" />
+            </div>
+            <h3 class="heading-icon">Editing</h3>
+          </article>
+        </a>
+        <a class="link-cate links" href="">
+          <article class="cate-list">
+            <div class="cate-icon">
+              <img src="/src/icons/bussiness.png " alt="buss" />
+            </div>
+            <h3 class="heading-icon">Bussiness</h3>
+          </article>
+        </a>
+      </div>
+    </section>
+    <!-- end of categorise -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <article class="grid-1x3 container-width">
+        <ul class="footer-list">
+          <li class="footerlink-list"><a href="">Reanmore Business</a></li>
+          <li class="footerlink-list"><a href="">Teach Here</a></li>
+          <li class="footerlink-list"><a href="">Get the app</a></li>
+          <li class="footerlink-list"><a href="">About us</a></li>
+          <li class="footerlink-list"><a href="">Contact us</a></li>
+        </ul>
+        <ul class="footer-list">
+          <li class="footerlink-list"><a href="">career</a></li>
+          <li class="footerlink-list"><a href="">blog</a></li>
+          <li class="footerlink-list"><a href="">help and support</a></li>
+          <li class="footerlink-list"><a href="">Terms of us</a></li>
+          <li class="footerlink-list"><a href="">Privacy Policy</a></li>
+        </ul>
+        <span class="span-footer">&copy; reanmore.com</span>
+      </article>
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>
