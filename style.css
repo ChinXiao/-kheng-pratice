@@ -51,7 +51,7 @@ li{
 .grid-1x4{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 .grid-hero{
     max-width: 1024px;
@@ -253,7 +253,7 @@ li{
 }
 .links{
     background-color: white;
-    padding: 1rem 4rem;
+    padding: 1rem 1rem;
     border-radius: 15px;
 }
 .cate-heading{
