@@ -1,7 +1,0 @@
-{
-    "rerites":[
-        {
-            "source":"/(.*)","destination": "/"
-        }
-    ]
-}
